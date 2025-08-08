@@ -71,6 +71,8 @@ setInterval(() => {
     } else if (offSetX < 145 && cross) {
         updateScore();
         bgAudio.play();
+        bgAudio.loop = true;
     }
 
 }, 100)
+
